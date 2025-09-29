@@ -12,7 +12,7 @@ class studentcontroller extends Controller
 
     public function studentinfo(){
         return view ('student', ['id' => '001', 
-                                'name' => 'Aldrin Sapugay', 
+                                'name' => 'Matt Gabriel Villadolid', 
                                 'courseyear' => 'BSIT3B'] ); 
     }
 
